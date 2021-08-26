@@ -14,7 +14,7 @@ private:
 	int new_nights;
 	int reserved_rooms = 0;
 	int reserved_nights = 0;
-	int total_cost = 0;
+	double total_cost = 0;
 
 	int available_rooms = 0;
 	int occupied_rooms = 0;
@@ -38,7 +38,7 @@ public:
 	virtual int get_occupied();
 	virtual int get_available();
 
-	virtual int get_total_cost();
+	virtual double get_total_cost();
 
 	virtual void get_info();
 };

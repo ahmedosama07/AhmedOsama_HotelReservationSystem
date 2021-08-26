@@ -66,7 +66,7 @@ int Guest::get_available() {
 	return available_rooms;
 }
 
-int Guest::get_total_cost()
+double Guest::get_total_cost()
 {
 	return this->total_cost;
 }

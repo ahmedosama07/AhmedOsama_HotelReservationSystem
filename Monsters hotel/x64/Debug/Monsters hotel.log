@@ -1,0 +1,19 @@
+﻿  Guest.cpp
+  Human.cpp
+  Monster.cpp
+  Monsters hotel.cpp
+D:\Engineering\External learning\Training\MIA online training\C++\AhmedOsama_HotelReservationSystem-main\AhmedOsama_HotelReservationSystem-main\Monsters hotel\Receptionsist.h(9,12): warning C4584: 'Receptionsist': base-class 'Guest' is already a base-class of 'Human'
+D:\Engineering\External learning\Training\MIA online training\C++\AhmedOsama_HotelReservationSystem-main\AhmedOsama_HotelReservationSystem-main\Monsters hotel\Guest.h(6): message : see declaration of 'Guest'
+D:\Engineering\External learning\Training\MIA online training\C++\AhmedOsama_HotelReservationSystem-main\AhmedOsama_HotelReservationSystem-main\Monsters hotel\Human.h(3): message : see declaration of 'Human'
+D:\Engineering\External learning\Training\MIA online training\C++\AhmedOsama_HotelReservationSystem-main\AhmedOsama_HotelReservationSystem-main\Monsters hotel\Receptionsist.h(9,12): warning C4584: 'Receptionsist': base-class 'Guest' is already a base-class of 'Monster'
+D:\Engineering\External learning\Training\MIA online training\C++\AhmedOsama_HotelReservationSystem-main\AhmedOsama_HotelReservationSystem-main\Monsters hotel\Guest.h(6): message : see declaration of 'Guest'
+D:\Engineering\External learning\Training\MIA online training\C++\AhmedOsama_HotelReservationSystem-main\AhmedOsama_HotelReservationSystem-main\Monsters hotel\Monster.h(3): message : see declaration of 'Monster'
+  Receptionsist.cpp
+D:\Engineering\External learning\Training\MIA online training\C++\AhmedOsama_HotelReservationSystem-main\AhmedOsama_HotelReservationSystem-main\Monsters hotel\Receptionsist.h(9,12): warning C4584: 'Receptionsist': base-class 'Guest' is already a base-class of 'Human'
+D:\Engineering\External learning\Training\MIA online training\C++\AhmedOsama_HotelReservationSystem-main\AhmedOsama_HotelReservationSystem-main\Monsters hotel\Guest.h(6): message : see declaration of 'Guest'
+D:\Engineering\External learning\Training\MIA online training\C++\AhmedOsama_HotelReservationSystem-main\AhmedOsama_HotelReservationSystem-main\Monsters hotel\Human.h(3): message : see declaration of 'Human'
+D:\Engineering\External learning\Training\MIA online training\C++\AhmedOsama_HotelReservationSystem-main\AhmedOsama_HotelReservationSystem-main\Monsters hotel\Receptionsist.h(9,12): warning C4584: 'Receptionsist': base-class 'Guest' is already a base-class of 'Monster'
+D:\Engineering\External learning\Training\MIA online training\C++\AhmedOsama_HotelReservationSystem-main\AhmedOsama_HotelReservationSystem-main\Monsters hotel\Guest.h(6): message : see declaration of 'Guest'
+D:\Engineering\External learning\Training\MIA online training\C++\AhmedOsama_HotelReservationSystem-main\AhmedOsama_HotelReservationSystem-main\Monsters hotel\Monster.h(3): message : see declaration of 'Monster'
+  Generating Code...
+  Monsters hotel.vcxproj -> D:\Engineering\External learning\Training\MIA online training\C++\AhmedOsama_HotelReservationSystem-main\AhmedOsama_HotelReservationSystem-main\x64\Debug\Monsters hotel.exe

@@ -16,7 +16,7 @@ private:
 	int new_nights;
 	int reserved_rooms = 0;
 	int reserved_nights = 0;
-	int total_cost = 0;
+	double total_cost = 0;
 
 public:
 	Monster() : id("Monster" + to_string(monsters)) { monsters++; };
@@ -34,7 +34,7 @@ public:
 	int get_occupied();
 	int get_available();
 
-	int get_total_cost();
+	double get_total_cost();
 
 	void get_info();
 };

@@ -37,28 +37,40 @@ label:
 }
 
 void Human::extend_reservation() {
-	cout << "How many nights?" << endl;
-	cin >> this->new_nights;
-	reserved_nights += new_nights;
+	if (reserved_rooms == 0) {
+		cout << "You must reserve a room first" << endl;
+		reserve_room();
+	}
+	else {
+		cout << "How many nights?" << endl;
+		cin >> this->new_nights;
+		reserved_nights += new_nights;
 
-	this->total_cost = total_cost + room_price * new_nights * this->reserved_rooms;
-	cout << "Total cost: $" << this->total_cost << endl;
+		this->total_cost = total_cost + room_price * new_nights * this->reserved_rooms;
+		cout << "Total cost: $" << this->total_cost << endl;
+	}
 }
 
 void Human::addetional_service() {
-	int choice;
-	cout << "1. Dry cleaning\n2. Spa" << endl;
-	cin >> choice;
+	if (reserved_rooms == 0) {
+		cout << "You must reserve a room first" << endl;
+		reserve_room();
+	}
+	else {
+		int choice;
+		cout << "1. Dry cleaning\n2. Spa" << endl;
+		cin >> choice;
 
-	if (choice == 1) {
-		cout << "Dry cleaning successfully reserved" << endl;
-		this->total_cost += dry_cleaning;
+		if (choice == 1) {
+			cout << "Dry cleaning successfully reserved" << endl;
+			this->total_cost += dry_cleaning;
+		}
+		else if (choice == 2) {
+			cout << "Spa successfully reserved" << endl;
+			this->total_cost += spa;
+		}
+		cout << "Total cost: $" << this->total_cost << endl;
 	}
-	else if (choice == 2) {
-		cout << "Spa successfully reserved" << endl;
-		this->total_cost += spa;
-	}
-	cout << "Total cost: $" << this->total_cost << endl;
 }
 
 void Human::cancel_regestration() {
@@ -87,7 +99,7 @@ int Human::get_available() {
 	return available_rooms;
 }
 
-int Human::get_total_cost()
+double Human::get_total_cost()
 {
 	return this->total_cost;
 }
