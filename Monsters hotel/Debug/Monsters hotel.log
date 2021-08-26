@@ -2,17 +2,17 @@
   Human.cpp
   Monster.cpp
   Monsters hotel.cpp
-C:\Users\LEGION\source\repos\Monsters hotel\Monsters hotel\Receptionsist.h(6,12): warning C4584: 'Receptionsist': base-class 'Guest' is already a base-class of 'Human'
+C:\Users\LEGION\source\repos\Monsters hotel\Monsters hotel\Receptionsist.h(9,12): warning C4584: 'Receptionsist': base-class 'Guest' is already a base-class of 'Human'
 C:\Users\LEGION\source\repos\Monsters hotel\Monsters hotel\Guest.h(6): message : see declaration of 'Guest'
 C:\Users\LEGION\source\repos\Monsters hotel\Monsters hotel\Human.h(3): message : see declaration of 'Human'
-C:\Users\LEGION\source\repos\Monsters hotel\Monsters hotel\Receptionsist.h(6,12): warning C4584: 'Receptionsist': base-class 'Guest' is already a base-class of 'Monster'
+C:\Users\LEGION\source\repos\Monsters hotel\Monsters hotel\Receptionsist.h(9,12): warning C4584: 'Receptionsist': base-class 'Guest' is already a base-class of 'Monster'
 C:\Users\LEGION\source\repos\Monsters hotel\Monsters hotel\Guest.h(6): message : see declaration of 'Guest'
 C:\Users\LEGION\source\repos\Monsters hotel\Monsters hotel\Monster.h(3): message : see declaration of 'Monster'
   Receptionsist.cpp
-C:\Users\LEGION\source\repos\Monsters hotel\Monsters hotel\Receptionsist.h(6,12): warning C4584: 'Receptionsist': base-class 'Guest' is already a base-class of 'Human'
+C:\Users\LEGION\source\repos\Monsters hotel\Monsters hotel\Receptionsist.h(9,12): warning C4584: 'Receptionsist': base-class 'Guest' is already a base-class of 'Human'
 C:\Users\LEGION\source\repos\Monsters hotel\Monsters hotel\Guest.h(6): message : see declaration of 'Guest'
 C:\Users\LEGION\source\repos\Monsters hotel\Monsters hotel\Human.h(3): message : see declaration of 'Human'
-C:\Users\LEGION\source\repos\Monsters hotel\Monsters hotel\Receptionsist.h(6,12): warning C4584: 'Receptionsist': base-class 'Guest' is already a base-class of 'Monster'
+C:\Users\LEGION\source\repos\Monsters hotel\Monsters hotel\Receptionsist.h(9,12): warning C4584: 'Receptionsist': base-class 'Guest' is already a base-class of 'Monster'
 C:\Users\LEGION\source\repos\Monsters hotel\Monsters hotel\Guest.h(6): message : see declaration of 'Guest'
 C:\Users\LEGION\source\repos\Monsters hotel\Monsters hotel\Monster.h(3): message : see declaration of 'Monster'
   Generating Code...

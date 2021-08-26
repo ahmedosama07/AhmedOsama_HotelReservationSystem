@@ -1,4 +1,7 @@
 #pragma once
+
+#include <map>
+
 #include "Guest.h"
 #include "Human.h"
 #include "Monster.h"
@@ -13,8 +16,9 @@ private:
     int monster_available_rooms;
 
 public:
-    void show_all_data();
+    void show_all_data(map <string, Guest*> guests);
     void show_human_data();
     void show_monster_data();
+
 };
 

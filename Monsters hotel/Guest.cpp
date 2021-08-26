@@ -76,5 +76,5 @@ int Guest::get_occupied() {
 }
 
 void Guest::get_info() {
-	cout << "Username: " << this->name << "\tID: " << this->id << endl;
+	cout << "Username: " << this->name << "\t" << "ID: " << this->id << endl;
 }

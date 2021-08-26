@@ -29,7 +29,7 @@ int main()
     //the main program
     do
     {
-        cout << "1. New user\n2. Old user\n3. Receptionist" << endl;
+        cout << "1. New user\n2. Old user\n3. Receptionist\n\n0. for exit" << endl;
         cin >> choice;
 
         if (choice == 1) {
@@ -46,7 +46,6 @@ int main()
 
                 //printing some information for the user about the number of rooms
                 guests[current_id]->get_info();
-                cout << "Occupied : " << guests[current_id]->get_occupied() << "\tAvailable : " << guests[current_id]->get_available() << endl;
                 
                 //reserving a room
                 guests[current_id]->reserve_room();
@@ -61,7 +60,6 @@ int main()
 
                 //printing some information for the user about the number of rooms
                 guests[current_id]->get_info();
-                cout << "Occupied : " << guests[current_id]->get_occupied() << "\tAvailable : " << guests[current_id]->get_available() << endl;
                 
                 //reserving a room
                 guests[current_id]->reserve_room();
@@ -81,7 +79,6 @@ int main()
                 
                 //printing user account info
                 guests[current_id]->get_info();
-                cout << "Occupied : " << guests[current_id]->get_occupied() << "\tAvailable : " << guests[current_id]->get_available() << endl;
                 cout << "\n1. New reservation\n2. Extend reservation\n3. Additional services\n4. Cancel reservation" << endl;
                 cin >> choice;
                 if (choice == 1) {
@@ -119,12 +116,7 @@ int main()
             }
             else if (choice == 3) {
                 //all data
-                for (auto it = guests.cbegin(); it != guests.cend(); ++it)
-                {
-                    it->second->get_info();
-                    cout << "Reserved : " << it->second->get_reserved_rooms() << "\t" << "Nights : " << it->second->get_reserved_nights() << "\t"
-                        << "Total cost : $" << it->second->get_total_cost() << endl;
-                }
+                receptionist.show_all_data(guests);
             }
         }
 
